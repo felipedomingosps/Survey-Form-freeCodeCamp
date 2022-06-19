@@ -1,11 +1,12 @@
 body {
 	background: linear-gradient(#000091 5%,#2A0DA7 30%,#A471FF);
 	padding: 0px;
+	color: #FFFFFF;
+	font-family: helvetica;
 }
 
 .flying-saucer {
 	position: relative;
-
 	width: 300px;
 	margin: 0 auto;
 }
@@ -81,4 +82,12 @@ main {
 	height: 800px;
 	border-radius: 50px;
 	margin-bottom: 5%;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+	color: #00E1BA;
+	text-align: center;
+	font-weight: bold;
 }
