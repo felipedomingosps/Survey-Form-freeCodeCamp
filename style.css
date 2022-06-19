@@ -1,10 +1,11 @@
 body {
-	background: linear-gradient(#000091,#2A0DA7,#A471FF);
-	height: 940px;
+	background: linear-gradient(#000091 5%,#2A0DA7 30%,#A471FF);
+	padding: 0px;
 }
 
 .flying-saucer {
 	position: relative;
+
 	width: 300px;
 	margin: 0 auto;
 }
@@ -45,6 +46,7 @@ body {
 	position: relative;
 	width: 300px;
 	margin: 0 auto;
+	height: 140px;
 }
 
 .shadow-center {
@@ -71,3 +73,12 @@ body {
 	bottom: 160px;
 }
 
+main {
+	margin: 0 auto;
+	background: linear-gradient(black 10%,#2A0DA7);
+	width: 60%;
+	max-width: 800px;
+	height: 800px;
+	border-radius: 50px;
+	margin-bottom: 5%;
+}
