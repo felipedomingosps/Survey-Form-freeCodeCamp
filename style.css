@@ -1,3 +1,8 @@
+body {
+	background: linear-gradient(#000091,#2A0DA7,#A471FF);
+	height: 940px;
+}
+
 .flying-saucer {
 	position: relative;
 	width: 300px;
@@ -35,3 +40,34 @@
 	border-bottom-right-radius: 100%;
 	border-bottom-left-radius: 100%;
 }
+
+.shadow {
+	position: relative;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.shadow-center {
+	position: relative;
+	margin: 0 auto;
+	height: 0;
+	width: 90px;
+	border-bottom: 160px solid #00E1BA80;
+	border-right: 50px solid transparent;
+	border-left: 50px solid transparent;
+	bottom: 15px;
+	z-index: -1;
+}
+
+.shadow-borders {
+	position: relative;
+	margin: 0 auto;
+	height: 0;
+	width: 45px;
+	border-bottom: 145px solid #FFFFFF90;
+	border-right: 25px solid transparent;
+	border-left: 25px solid transparent;
+	z-index: -1;
+	bottom: 160px;
+}
+
