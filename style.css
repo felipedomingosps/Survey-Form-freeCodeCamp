@@ -49,7 +49,7 @@ body {
 	height: 140px;
 }
 
-.shadow-center {
+.shadow-borders {
 	position: relative;
 	margin: 0 auto;
 	height: 0;
@@ -61,7 +61,7 @@ body {
 	z-index: -1;
 }
 
-.shadow-borders {
+.shadow-center {
 	position: relative;
 	margin: 0 auto;
 	height: 0;
