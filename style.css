@@ -1,0 +1,37 @@
+.flying-saucer {
+	position: relative;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.top {
+	position: relative;
+	margin: 0 auto;
+	height: 115px;
+	width: 115px;
+	background-color: black;
+	border-radius: 100%;
+	top: 70px;
+}
+
+.mid {
+	margin: 0 auto;
+	height: 0;
+	width: 100px;
+	border-bottom: 40px solid black;
+	border-right: 100px solid transparent;
+	border-left: 100px solid transparent;
+	border-top-right-radius: 100%;
+	border-top-left-radius: 100%;
+}
+
+.bottom {
+	margin: 0 auto;
+	height: 0;
+	width: 100px;
+	border-top: 40px solid black;
+	border-right: 100px solid transparent;
+	border-left: 100px solid transparent;
+	border-bottom-right-radius: 100%;
+	border-bottom-left-radius: 100%;
+}
