@@ -77,7 +77,7 @@ body {
 form {
 	position: relative;
 	margin: 0 auto;
-	background: linear-gradient(black 10%,#2A0DA7);
+	background: linear-gradient(#1E1926, #2A0DA7);
 	max-width: 800px;
 	width: 40%;
 	border-radius: 50px;
