@@ -166,6 +166,15 @@ select {
 	width: 101.7%;
 }
 
+a {
+	color: white;
+}
+
+a:visited {
+	color: white;
+	font-decoration: none;
+}
+
 option {
 	color: #000091;
 	padding: 5px;
@@ -207,8 +216,6 @@ textarea {
 #file {
 	border: none;
 }
-
-
 
 button {
 	display: block;
