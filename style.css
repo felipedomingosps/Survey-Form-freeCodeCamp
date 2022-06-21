@@ -94,11 +94,12 @@ h1 {
 
 label {
 	font-size: 26px;
+	display: block;
 }
 input, textarea, select {
 	display: block;
 	font-size: 20px;
-	width: 400px;
+	width: 100%;
 	margin-bottom: 30px;
 	margin-top: 10px;
 	background-color: transparent;
@@ -108,15 +109,59 @@ input, textarea, select {
 	padding: 5px;
 }
 
-textarea {
-	height: 150px;
-	border: 1px solid white;
 
+
+fieldset {
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-block-start: 0;
+    padding-block-end: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    border: none;
+    min-inline-size: min-content;
+    width: 100%;
+    margin-left: -1px;
+}
+
+legend {
+	font-size: 26px;
+	margin-bottom: 10px;
+	width: 100%;
+	display: block;
+}
+
+fieldset input{
+	all: none;
+	margin: 0px;
+	width: 10px;
+	display: inline;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	margin-right: 10px;
+}
+
+fieldset label {
+	all: none;
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-left: 6px;
+	font-size: 20px;
+	height: 24px;
 }
 
 option {
 	background-color: transparent;
 	color: black;
+	width: 100%;
+}
+
+textarea {
+	height: 150px;
+	width: 100%;
+	border: 1px solid white;
+
 }
 
 ::placeholder {

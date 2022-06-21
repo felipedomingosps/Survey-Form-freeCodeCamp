@@ -24,28 +24,42 @@
 				
 					<label for="name-surname">Name: 
 						<input id="name-surname" type="text" placeholder="Enter your full name" /></label>
-					<label for="age">Age: <input id="age" type="number" placeholder="Enter your age" /></label>
-					<label for="country">Country: <input id="country" type="text" placeholder="Enter your country of residence" /></label>
-					<label for="state">State: <input id="state" type="text" placeholder="Enter your country of residence" /></label>
-					<label for="city">City: <input id="city" type="text" placeholder="Enter your country of residence" /></label>
-					<label for="phone">Phone Number: <input id="phone" type="tel" placeholder="+XX (XX) XXXX-XXXX" /></label>
-					<label for="email">Email: <input id="email" type="email" placeholder="Email@domain.com" /></label>
-					<label>Best 
 
+					<label for="age">Age: <input id="age" type="number" placeholder="Enter your age" /></label>
+
+					<label for="country">Country: <input id="country" type="text" placeholder="Enter your country of residence" /></label>
+
+					<label for="state">State: <input id="state" type="text" placeholder="Enter your country of residence" /></label>
+
+					<label for="city">City: <input id="city" type="text" placeholder="Enter your country of residence" /></label>
+
+					<label for="phone">Phone Number: <input id="phone" type="tel" placeholder="+XX (XX) XXXX-XXXX" /></label>
+
+					<label for="email">Email: <input id="email" type="email" placeholder="Email@domain.com" /></label>
+
+					<fieldset>
+						<legend>Contact preference:</legend>
+						<label for="radio-email"><input type="radio" name="contact" id="radio-email" value="email" checked>Email</label>
+						<label for="radio-phone"><input type="radio" name="contact" id="radio-phone" value="phone">Phone</label>
+						<label for="radio-whatsapp"><input type="radio" name="contact" id="radio-whatsapp" value="whatsapp">Whatsapp</label>
+					</fieldset>
 
 					<label for="contact">
 						Select the kind of encounter you had:
-					<select id="contact">
-						<option>Nocturnal Lights</option>
-						<option>Daylight Discs</option>
-						<option>Radar-Visual</option>
-						<option>Close Encounters of the First Kind</option>
-						<option>Close Encounters of the Second Kind</option>
-						<option>Close Encounters of the Third Kind</option>
-					</select>
+						<select id="contact">
+							<option>Nocturnal Lights</option>
+							<option>Daylight Discs</option>
+							<option>Radar-Visual</option>
+							<option>Close Encounters of the First Kind</option>
+							<option>Close Encounters of the Second Kind</option>
+							<option>Close Encounters of the Third Kind</option>
+						</select>
 					</label>
+
 					<label for="description">Description: <textarea id="description" placeholder="Describe what you have experienced"></textarea></label>
+
 					<label for="file">File: <input id="city" type="file"/></label>
+
 				</div>
 
 			</form>
