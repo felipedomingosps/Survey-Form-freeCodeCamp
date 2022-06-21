@@ -15,17 +15,18 @@ body {
 	position: relative;
 	margin: 0 auto;
 	height: 115px;
-	width: 115px;
-	background-color: black;
+	width: 108px;
+	background-color: #5F5D6790;
 	border-radius: 100%;
 	top: 70px;
+	z-index: -1;
 }
 
 .mid {
 	margin: 0 auto;
 	height: 0;
 	width: 100px;
-	border-bottom: 40px solid black;
+	border-bottom: 40px solid #5F5D67;
 	border-right: 100px solid transparent;
 	border-left: 100px solid transparent;
 	border-top-right-radius: 100%;
@@ -36,7 +37,7 @@ body {
 	margin: 0 auto;
 	height: 0;
 	width: 100px;
-	border-top: 40px solid black;
+	border-top: 40px solid #A2A0AB;
 	border-right: 100px solid transparent;
 	border-left: 100px solid transparent;
 	border-bottom-right-radius: 100%;
@@ -48,6 +49,7 @@ body {
 	width: 300px;
 	margin: 0 auto;
 	height: 140px;
+	margin-top: -2px;
 }
 
 .light-borders {
