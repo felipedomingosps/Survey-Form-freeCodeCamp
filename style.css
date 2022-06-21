@@ -173,6 +173,11 @@ textarea {
 
 }
 
+::placeholder {
+  /* color: #2A0DA7 ; */
+  color: #FFFFFF70;
+}
+
 .label-permission {
 	font-size: 16px;
 	margin-top: -20px;
@@ -189,7 +194,13 @@ textarea {
 	margin-right: 3px;
 }
 
-::placeholder {
-  /* color: #2A0DA7 ; */
-  color: #FFFFFF70;
+button {
+	display: block;
+	border: 2px solid white;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 25px;
+	margin-left: auto;
+	margin-right: auto;
 }
