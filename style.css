@@ -173,6 +173,22 @@ textarea {
 
 }
 
+.label-permission {
+	font-size: 16px;
+	margin-top: -20px;
+	vertical-align: bottom;
+}
+
+#permission {
+	display: inline;
+	all: none;
+	width: 16px;
+	margin: 0px;
+	vertical-align: middle;
+	margin-bottom: 3px;
+	margin-right: 3px;
+}
+
 ::placeholder {
   /* color: #2A0DA7 ; */
   color: #FFFFFF70;
