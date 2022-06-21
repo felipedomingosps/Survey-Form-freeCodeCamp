@@ -194,6 +194,12 @@ textarea {
 	margin-right: 3px;
 }
 
+#file {
+	border: none;
+}
+
+
+
 button {
 	display: block;
 	border: 2px solid white;
