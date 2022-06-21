@@ -19,25 +19,25 @@
 		</header>
 
 		<main>
-			<form>
+			<form id="survey-form">
 					<h1 id="title">Alien Encounter Form</h1>
 
 					<p id="description">If you had an encounter with an alien, fill this form so we can know about your story.</p>
 				
-					<label for="name-surname">Name: 
-						<input id="name-surname" type="text" placeholder="Enter your full name" /></label>
+					<label for="name" id="name-label">Name: 
+						<input id="name" type="text" placeholder="Enter your full name" required/></label>
 
-					<label for="age">Age: <input id="age" type="number" placeholder="Enter your age" /></label>
+					<label for="age">Age: <input id="age" type="number" placeholder="Enter your age" required/></label>
 
-					<label for="country">Country: <input id="country" type="text" placeholder="Enter your country of residence" /></label>
+					<label for="country">Country: <input id="country" type="text" placeholder="Enter your country of residence" required/></label>
 
-					<label for="state">State: <input id="state" type="text" placeholder="Enter your state of residence" /></label>
+					<label for="state">State: <input id="state" type="text" placeholder="Enter your state of residence" required/></label>
 
-					<label for="city">City: <input id="city" type="text" placeholder="Enter your city of residence" /></label>
+					<label for="city">City: <input id="city" type="text" placeholder="Enter your city of residence" required/></label>
 
-					<label for="phone">Phone Number: <input id="phone" type="tel" placeholder="+XX (XX) XXXX-XXXX" /></label>
+					<label for="number" id="number-label">Phone Number: <input id="number" type="number" placeholder="+XX (XX) XXXX-XXXX" min="12" max="18" required/></label>
 
-					<label for="email">Email: <input id="email" type="email" placeholder="Email@domain.com" /></label>
+					<label for="email" id="email-label">Email: <input id="email" type="email" placeholder="Email@domain.com" required/></label>
 
 					<fieldset>
 						<legend>Contact preference:</legend>
@@ -46,9 +46,9 @@
 						<label for="radio-whatsapp"><input type="radio" name="contact" id="radio-whatsapp" value="whatsapp">Whatsapp</label>
 					</fieldset>
 
-					<label for="contact">
+					<label for="drodown">
 						Select the kind of encounter you had:
-						<select id="contact">
+						<select id="dropdown">
 							<option>Nocturnal Lights</option>
 							<option>Daylight Discs</option>
 							<option>Radar-Visual</option>
@@ -60,11 +60,13 @@
 
 					<label for="description">Description: <textarea id="description" placeholder="Describe what you have experienced"></textarea></label>
 
-					<label for="permission" class="label-permission"><input type="checkbox" id="permission"><em>Do you allow us to publish your story for the public?</em></label>
+					<em>Do you allow us to publish your story for the public?</em>
+					<input type="checkbox" id="permission" value="yes"> Yes
+					<input type="checkbox" id="permission" value="yes"> No
 
 					<label for="file">File: <input id="file" type="file"/></label>
 
-					<button>Submit</button>
+					<button id="submit">Submit</button>
 
 				</div>
 
