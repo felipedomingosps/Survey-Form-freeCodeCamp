@@ -105,10 +105,13 @@ input, textarea, select {
 	color: white;
 	border: none;
 	border-bottom: 1px solid white;
+	padding: 5px;
 }
 
 textarea {
 	height: 150px;
+	border: 1px solid white;
+
 }
 
 option {
