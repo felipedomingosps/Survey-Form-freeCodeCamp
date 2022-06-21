@@ -89,18 +89,19 @@ h1 {
 	color: #FFFFFF;
 	text-align: center;
 	font-weight: bold;
+	margin-bottom: 50px;
 }
 
 
 label {
 	font-size: 26px;
 	display: block;
+	margin-bottom: 30px;
 }
 input, textarea, select {
 	display: block;
 	font-size: 20px;
 	width: 100%;
-	margin-bottom: 30px;
 	margin-top: 10px;
 	background-color: transparent;
 	color: white;
@@ -122,13 +123,14 @@ fieldset {
     min-inline-size: min-content;
     width: 100%;
     margin-left: -1px;
+    margin-bottom: 30px;
 }
 
 legend {
 	font-size: 26px;
-	margin-bottom: 10px;
 	width: 100%;
 	display: block;
+	margin-bottom: 5px;
 }
 
 fieldset input{
@@ -137,7 +139,6 @@ fieldset input{
 	width: 10px;
 	display: inline;
 	margin-top: 10px;
-	margin-bottom: 30px;
 	margin-right: 10px;
 }
 
@@ -149,11 +150,12 @@ fieldset label {
 	margin-left: 6px;
 	font-size: 20px;
 	height: 24px;
+	margin-top: 5px;
+	margin-bottom: 0px;
 }
 
 option {
-	background-color: transparent;
-	color: black;
+	color: #000091;
 	width: 100%;
 }
 
