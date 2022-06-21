@@ -99,8 +99,24 @@ input, textarea, select {
 	display: block;
 	font-size: 20px;
 	width: 400px;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	background-color: transparent;
+	color: white;
+	border: none;
+	border-bottom: 1px solid white;
 }
+
+textarea {
+	height: 150px;
+}
+
+option {
+	background-color: transparent;
+	color: black;
+}
+
 ::placeholder {
-  color: #2A0DA7 ;
+  /* color: #2A0DA7 ; */
+  color: white;
 }
