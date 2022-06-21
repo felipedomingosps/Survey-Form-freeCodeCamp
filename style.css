@@ -43,14 +43,14 @@ body {
 	border-bottom-left-radius: 100%;
 }
 
-.shadow {
+.light {
 	position: relative;
 	width: 300px;
 	margin: 0 auto;
 	height: 140px;
 }
 
-.shadow-borders {
+.light-borders {
 	position: relative;
 	margin: 0 auto;
 	height: 0;
@@ -62,7 +62,7 @@ body {
 	z-index: -1;
 }
 
-.shadow-center {
+.light-center {
 	position: relative;
 	margin: 0 auto;
 	height: 0;
