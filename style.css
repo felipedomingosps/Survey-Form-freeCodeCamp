@@ -16,7 +16,7 @@ body {
 	margin: 0 auto;
 	height: 115px;
 	width: 108px;
-	background-color: #5F5D6790;
+	background-color: #49494990;
 	border-radius: 100%;
 	top: 70px;
 	z-index: -1;
@@ -26,7 +26,7 @@ body {
 	margin: 0 auto;
 	height: 0;
 	width: 100px;
-	border-bottom: 40px solid #5F5D67;
+	border-bottom: 40px solid #494949;
 	border-right: 100px solid transparent;
 	border-left: 100px solid transparent;
 	border-top-right-radius: 100%;
@@ -37,7 +37,7 @@ body {
 	margin: 0 auto;
 	height: 0;
 	width: 100px;
-	border-top: 40px solid #A2A0AB;
+	border-top: 40px solid #646F76;
 	border-right: 100px solid transparent;
 	border-left: 100px solid transparent;
 	border-bottom-right-radius: 100%;
