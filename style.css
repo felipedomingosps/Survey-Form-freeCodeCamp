@@ -1,8 +1,10 @@
+
 body {
 	background: linear-gradient(#120647, #6C0C57, #B23357, #E36D4F);
 	padding: 0px;
 	color: #FFFFFF;
 	font-family: helvetica;
+	box-sizing: border-box;
 }
 
 .flying-saucer {
@@ -104,6 +106,7 @@ label {
 	font-size: 26px;
 	display: block;
 	margin-bottom: 30px;
+	width: 100%;
 }
 input, textarea, select {
 	display: block;
@@ -114,11 +117,10 @@ input, textarea, select {
 	color: white;
 	border: none;
 	border-bottom: 1px solid white;
-	padding: 5px;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 3px;
 }
-
 
 
 fieldset {
@@ -234,4 +236,20 @@ button:hover {
 	transform: scale(1.1);
 	transition: 1s;
 	cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+	body {
+		margin: 0px;
+	}
+	main {
+		width: 100%;
+	}
+	form {
+	width: auto;
+	padding: 30px;
+	margin: 0;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	}
 }
